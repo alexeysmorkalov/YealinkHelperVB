@@ -24,17 +24,15 @@ YLHelper.dll exports a number of functions:
 
 ## How
 To call the functions in VB you can use *Yealink.bas* module in your project or as example.
-To handle callbacks as you wish you can change the 'YL_CallBack' function in CallBacks module.
+To handle callbacks as you wish you can change the `YL_CallBack` function in CallBacks module.
 
 ## Limitations
 Unfortunately, some variables mentioned in the docs are not defined in the 
-the *YLTELBOX.h*. For example, 'YL_IOCTL_GEN_GETROUTECODE' or 'KEY_CENTER'.
+the *YLTELBOX.h*. For example, `YL_IOCTL_GEN_GETROUTECODE` or `KEY_CENTER`.
 That is why some features was not implemented. 
 
 ## Contents
 
-* Bin 		Binaries  
-Test application, the helper dll, Yealink SDK dll
 * Lib 		
 Files from Yealink SDK (first version I think) 
 * Source		
