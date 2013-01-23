@@ -1,0 +1,14 @@
+EXPORTS 
+      YL_DeviceIoControl_
+	  YL_Open
+	  YL_Close
+	  YL_BeReady
+	  YL_BeNotReady
+	  YL_Calling
+	  YL_GetRinging
+	  YL_Talking
+	  YL_SwitchToUsbChannels
+	  YL_SwitchToPstnChannels
+	  YL_DefaultInUsbChannels
+	  YL_DefaultInPstnChannels
+	  YL_UseUsbChannelsOnly
